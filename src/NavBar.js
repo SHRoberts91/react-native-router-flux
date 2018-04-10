@@ -23,9 +23,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
-import React, {
-  PropTypes,
-} from 'react';
+import React from 'react';
 import {
   Platform,
   Animated,
@@ -36,6 +34,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import PropTypes from 'prop-types';
 import Actions from './Actions';
 import _drawerImage from './menu_burger.png';
 import _backButtonImage from './back_chevron.png';
